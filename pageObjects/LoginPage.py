@@ -9,6 +9,7 @@ class Login:
 
     def __init__(self, driver):
         self.driver = driver
+        self.driver.implicitly_wait(10)
 
     def setuserName(self, username):
         self.driver.find_element_by_id(self.textbox_username_id).clear()

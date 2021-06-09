@@ -21,6 +21,7 @@ class Test_003_AddCustomer:
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
 
+
         self.lp = Login(self.driver)
         self.lp.setuserName(self.username)
         self.lp.setPassword(self.password)
@@ -47,6 +48,7 @@ class Test_003_AddCustomer:
         self.addcust.setLastName("Tester")
         self.addcust.setDob("7/05/1985")  # Format: D / MM / YYY
         self.addcust.setCompanyName("VictorQA")
+        #self.addcust.setNewLetter("Test store 2")
         self.addcust.setAdminContent("This is for testing.........")
         self.addcust.clickOnSave()
 
