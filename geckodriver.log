@@ -1,0 +1,23 @@
+1622821755809	geckodriver	INFO	Listening on 127.0.0.1:52651
+1622821758859	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Victor\\AppData\\Local\\Temp\\rust_mozprofileSB2J0o"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622821764018	Marionette	INFO	Listening on port 58697
+1622821764206	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622821767741	Marionette	INFO	Stopped listening on port 58697
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 596: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622821768546	geckodriver	INFO	Listening on 127.0.0.1:56957
+1622821771569	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Victor\\AppData\\Local\\Temp\\rust_mozprofileqeTuE3"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622821774823	Marionette	INFO	Listening on port 62159
+1622821775256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622821780845	Marionette	INFO	Stopped listening on port 62159
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
